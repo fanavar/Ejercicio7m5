@@ -13,14 +13,15 @@ public class Presentador {
        int nivelFuerza = modelo.validarClave(password);
         if(nivelFuerza == Modelo.DEBIL){
             this.vistaPresentador.mostrarDebil();
-
-        }else if (nivelFuerza == Modelo.MEDIA) {
+        }
+        else if (nivelFuerza == Modelo.MEDIA) {
             this.vistaPresentador.mostrarMedio();
-
-        }else if (nivelFuerza == Modelo.FUERTE){
+        }
+        else if (nivelFuerza == Modelo.FUERTE){
             this.vistaPresentador.mostrarFuerte();
 
-        } else {
+        }
+        else {
             this.vistaPresentador.mostrarError();
         }
     }

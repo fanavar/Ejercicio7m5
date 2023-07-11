@@ -52,6 +52,6 @@ private Presentador presentador;
 
     @Override
     public void mostrarError() {
-
+        Toast.makeText(this, "Error", Toast.LENGTH_SHORT).show();
     }
 }
