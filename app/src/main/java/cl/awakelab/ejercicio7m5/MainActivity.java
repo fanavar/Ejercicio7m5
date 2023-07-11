@@ -37,17 +37,17 @@ private Presentador presentador;
 
     @Override
     public void mostrarDebil() {
-        Toast.makeText(this, "DEBIL", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Contraseña debil", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void mostrarMedio() {
-        Toast.makeText(this, "MEDIA", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "contraseña media", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void mostrarFuerte() {
-        Toast.makeText(this, "FUERTE", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "contraseña fuerte", Toast.LENGTH_SHORT).show();
     }
 
     @Override
